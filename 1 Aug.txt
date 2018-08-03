@@ -1,0 +1,151 @@
+What is the need of DBMS?
+Database systems are basically developed for large amount of data. When dealing with huge amount of data,
+ there are two things that require optimization: Storage of data and retrieval of data.
+
+Storage: According to the principles of database systems, the data is stored in such a way that it acquires
+ lot less space as the redundant data (duplicate data) has been removed before storage. Let’s take a layman 
+ example to understand this:
+In a banking system, suppose a customer is having two accounts, one is saving account and another is salary
+ account. Let’s say bank stores saving account data at one place (these places are called tables we will
+ learn them later) and salary account data at another place, in that case if the customer information such
+ as customer name, address etc. are stored at both places then this is just a wastage of storage 
+ (redundancy/ duplication of data), to organize the data in a better way the information should be stored 
+ at one place and both the accounts should be linked to that information somehow. The same thing we achieve
+ in DBMS.
+
+Fast Retrieval of data: Along with storing the data in an optimized and systematic manner, it is also 
+important that we retrieve the data quickly when needed. Database systems ensure that the data is retrieved
+ as quickly as possible.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //
+
+-- SQL If Else Example
+ 
+--Declaring Number and Total Variables
+DECLARE @Marks INT = 72 ;
+ 
+IF @marks > = 50
+BEGIN
+   PRINT ' Congratulations ';
+   PRINT ' You pass the Examination ';
+END
+ELSE
+BEGIN
+   PRINT ' You Failed ';
+   PRINT ' Better Luck Next Time ';
+END
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Declare @mainString nvarchar(100)='Amit Kumar Yadav'  
+---Check here @mainString contains Amit or not, if it contains then retrun greater than 0 then print Find otherwise Not Find  
+if CHARINDEX('Amit',@mainString) > 0   
+begin  
+   select 'Find' As Result  
+end  
+else  
+    select 'Not Find' As Result 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ select * from Person.StateProvince where StateProvinceCode='FL';
+ 
+ 
+ select FirstName + ' ' + MiddleName+ ' ' + LastName as FullName from Person.Person
+ 
+ 
+ 
+ 
+ 
+  select FirstName + ' ' + MiddleName+ ' ' + LastName as FullName from Person.Person,Person.StateProvince
+ where Person.rowguid=StateProvince.rowguid
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SELECT CompanyName
+  FROM Customer
+ WHERE FirstName='James'
+   AND MiddleName='D.'
+   AND LastName= 'Kramer'
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
