@@ -1,0 +1,125 @@
+<h2 title="I'm a header">The title Attribute</h2>
+
+<p title="I'm a tooltip">
+
+
+
+
+https://www.w3schools.com/html/exercise.asp?filename=exercise_attributes5
+
+
+
+
+Sir, I have joined Mindfire Solutions recently as Trainee Software Engineer, I liked the company very much, actually I have good SkillSet in Java J2EE JSP Servlets and basic knowledge of Spring & Hibernate, I want to start with the Java Technology but the team is assigning me Coldfusion, I talked about the same with HR and she told me to contact you,
+
+https://www.w3schools.com/html/exercise.asp?filename=exercise_styles6
+
+
+<ul style="list-style-type:disc">
+
+
+<ol type="1">
+
+<ol start="50">
+
+
+
+<h1>My <span style="color:red">Important</span> Heading</h1>
+
+
+
+<style>
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_blank - Opens the linked document in a new window or tab
+_self - Opens the linked document in the same window/tab as it was clicked (this is default)
+_parent - Opens the linked document in the parent frame
+_top - Opens the linked document in the full body of the window
+framename - Opens the linked document in a named frame
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+<bdo dir="rtl">This line will be written from right to left</bdo>
+
+
+Tag	Description<br>
+<h2>
+<b>	Defines bold text</b><br>
+<em>	Defines emphasized text</em> <br>
+<i>	Defines italic text</i><br>
+<small>	Defines smaller text</small><br>
+<strong>	Defines important text<br>
+<sub>	Defines subscripted text<br>
+<sup>	Defines superscripted text<br>
+<ins>	Defines inserted text<br>
+<del>	Defines deleted text<br>
+<mark>	Defines marked/highlighted text<br>
+
+
+<img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+
+
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_rowspan
+
+
+
+
+
+//JAVASCRIPT
+
+<p id="demo"></p>
+
+<script>
+var price1 = 5;
+var price2 = 6;
+var total = price1 + price2;
+document.getElementById("demo").innerHTML =
+"The total is: " + total;
+</script>
+
+
+// Create an object:
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+// Display some data from the object:
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+
+
+
+//java program
+https://ide.geeksforgeeks.org/eoWPbCmAiL
+
+
+
+youtube
+
+http://tt.ourgoalplan.com/LearningPath/Course?courseId=37

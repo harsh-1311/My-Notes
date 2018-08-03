@@ -1,0 +1,96 @@
+The Document Object
+When an HTML document is loaded into a web browser, it becomes a document object.
+
+The document object is the root node of the HTML document.
+
+
+
+
+var sum = new Function('a', 'b', 'return a + b');
+
+
+console.log(sum(2, 6));
+
+// expected output: 8
+
+
+
+
+// Create a function that takes two arguments and returns the sum of those arguments
+
+var adder = new Function('a', 'b', 'return a + b');
+
+
+// Call the function
+
+console.log(adder(2, 6));
+
+// > 8
+
+
+
+
+function makeFunction(code)
+
+{
+
+    return Function('"use strict";return ' + code)();
+
+}
+
+var add = makeFunction
+(
+  "" + function(a, b, c){ return a + b + c } 
+);
+
+console.log( add(1, 2, 3) );
+ // will log six
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
